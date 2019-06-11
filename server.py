@@ -15,4 +15,4 @@ def send():
 
   return "Greeting sent!"
 
-# app.run(debug=True)
+# app.run(debug=True) Reason this needs to be removed is because Heroku already has a way to run it - app.run is local - we don't want it to run locally as this wil confuse Heroku
